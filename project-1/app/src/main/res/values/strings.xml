@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="app_title">Quiz about Ducks</string>
+    <string name="app_author">by Dao Nhat Nam</string>
+    <string name="question1">1. Ducks...</string>
+    <string name="cb1">cannot swim</string>
+    <string name="cb2">are herbivores</string>
+    <string name="question2">2. Taking down from ducks is not harmful to them</string>
+    <string name="boolean1">True</string>
+    <string name="boolean2">False</string>
+    <string name="question3">3. What part of the bird family are ducks from</string>
+    <string name="button1">Submit</string>
+    <string name="button2">Cancel</string>
+</resources>

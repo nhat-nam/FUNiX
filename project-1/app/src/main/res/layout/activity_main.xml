@@ -1,0 +1,131 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="@dimen/view_padding"
+        android:paddingTop="@dimen/view_padding"
+        android:paddingRight="@dimen/view_padding"
+        android:paddingBottom="@dimen/view_padding"
+        tools:context=".MainActivity">
+
+<!--        title-->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_title"
+            android:textSize="@dimen/title_txtsize" />
+
+<!--        author-->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_author"
+            android:textColor="@color/duckGreen"
+            android:textSize="@dimen/question_txtsize" />
+
+<!--      visual element  -->
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/element_margin"
+            android:src="@drawable/duck" />
+
+<!--        1st question - check box-->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/element_margin"
+            android:text="@string/question1"
+            android:textSize="@dimen/question_txtsize" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/cb1"
+            android:textSize="@dimen/answer_txtsize"/>
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/cb2"
+            android:textSize="@dimen/answer_txtsize"/>
+
+<!--        2nd question - radio group-->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/element_margin"
+            android:text="@string/question2"
+            android:textSize="@dimen/question_txtsize" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:weightSum="1"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boolean1"
+                android:checked="false"
+                android:id="@+id/radioButton1"
+                android:textSize="@dimen/answer_txtsize" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boolean2"
+                android:checked="false"
+                android:id="@+id/radioButton2"
+                android:textSize="@dimen/answer_txtsize"
+                android:layout_weight="0.13" />
+        </RadioGroup>
+
+<!--        3rd question - edit text-->
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/element_margin"
+            android:text="@string/question3"
+            android:textSize="@dimen/question_txtsize" />
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/answer_txtsize"
+            android:inputType="text" />
+
+<!--        submit button checks answers & cancel button quits application-->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button2" />
+
+    </LinearLayout>
+</ScrollView>
