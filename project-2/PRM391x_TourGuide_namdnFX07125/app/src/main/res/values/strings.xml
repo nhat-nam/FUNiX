@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gaming Tour Guide</string>
+    <string name="app_title">GAMING EQUIPMENT</string>
+    <string name="fragmentText1">MOUSE</string>
+    <string name="fragmentText2">HEADSET</string>
+    <string name="fragmentText3">MONITOR</string>
+    <string name="fragmentText4">KEYBOARD</string>
+    <string name="fragmentButton1">BACK</string>
+</resources>
